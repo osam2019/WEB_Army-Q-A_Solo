@@ -13,6 +13,7 @@ export const LOAD_SHOW_INVISIBLE = "LOAD_SHOW_INVISIBLE";
 export const UPDATE_SHOW_INVISIBLE = "UPDATE_SHOW_INVISIBLE";
 
 export const ADD_ITEM = "ADD_ITEM";
+export const ADD_POST = "ADD_POST";
 
 export const UPDATE_REPLY = "UPDATE_REPLY";
 export const LOAD_REPLY = "LOAD_REPLY";

@@ -41,5 +41,8 @@ export default {
     },
     [board.ADD_ITEM](state, newItem) {
         state.reply.push(newItem)
+    },
+    [board.ADD_POST](state, newItem) {
+        state.items.push(newItem)
     }
 }

@@ -5,6 +5,7 @@ import Login from "./components/login";
 import BoardUnsolved from "./components/board/board";
 import BoardSolved from "./components/board/board-solved";
 import BoardPopular from "./components/board/board-hot";
+import WritePost from "./components/board/writePost";
 
 Vue.use(Router);
 export default new Router({
@@ -34,6 +35,11 @@ export default new Router({
             path:"/board-popular",
             name:"board-popular",
             component:BoardPopular
+        },
+        {
+            path:"/writepost",
+            name:"write-post",
+            component:WritePost
         }
     ]
 })

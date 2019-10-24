@@ -35,6 +35,10 @@ export default {
         commit(board.ADD_ITEM, payload.newItem);
     },
 
+    [board.ADD_POST]({commit}, payload) {
+        commit(board.ADD_POST, payload);
+    },
+
     [board.LOAD_REPLY]({commit}, payload) {
         commit(board.UPDATE_REPLY, payload);
     },
